@@ -1,0 +1,14 @@
+#!/bin/sh
+
+case "$2" in
+ACTIVATE)
+	echo "AT+QGPS=1" | atinout - /dev/EG25.AT -
+	;;
+DEACTIVATE)
+	echo "AT+QGPSEND" | atinout - /dev/EG25.AT -
+	;;
+""|*)
+	echo "Unhandled argument: $2"
+	exit 1
+	;;
+esac

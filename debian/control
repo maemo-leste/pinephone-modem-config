@@ -1,0 +1,11 @@
+Source: pinephone-modem-config
+Section: pinephone
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 10)
+
+Package: pinephone-modem-config
+Architecture: all
+Depends: ${misc:Depends}, gpsd, ofono
+Description: Pinephone modem configuration files and initscripts
