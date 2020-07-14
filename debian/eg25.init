@@ -21,7 +21,7 @@ start() {
 	echo 0 > /sys/class/gpio/gpio232/value || return 1
 
 	( echo 1 > /sys/class/gpio/gpio35/value && sleep 2 \
-		&& echo 0 > /sys/class/gpio35/value ) || return 1
+		&& echo 0 > /sys/class/gpio/gpio35/value ) || return 1
 }
 
 stop() {
