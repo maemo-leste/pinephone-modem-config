@@ -1,3 +1,9 @@
+pinephone-modem-config (1.1-1) unstable; urgency=medium
+
+  * Sync scripts with postmarketOS.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 14 Jul 2020 21:20:02 +0200
+
 pinephone-modem-config (1.0-1) unstable; urgency=medium
 
   * Initial file import
