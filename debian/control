@@ -7,5 +7,5 @@ Build-Depends: debhelper (>= 10)
 
 Package: pinephone-modem-config
 Architecture: all
-Depends: ${misc:Depends}, gpsd, ofono, atinout
+Depends: ${misc:Depends}, gpsd, ofono, atinout, eg25-manager
 Description: Pinephone modem configuration files and initscripts
