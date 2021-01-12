@@ -1,3 +1,13 @@
+pinephone-modem-config (1.2-1) unstable; urgency=medium
+
+  * Add dependency on eg25-manager and temp disable gpsd initscript.
+  * Sync setup-modem.sh with pmOS.
+  * Remove /lib.
+  * Add dependency on atinout.
+  * Remove executable flags from initscripts.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 12 Jan 2021 11:38:01 +0100
+
 pinephone-modem-config (1.1-2) unstable; urgency=medium
 
   * Fix up initscripts.
