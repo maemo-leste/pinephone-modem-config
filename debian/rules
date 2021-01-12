@@ -6,4 +6,3 @@
 override_dh_installinit:
 	dh_installinit --no-start --name=eg25
 	#dh_installinit --no-start --name=gpsd_pinephone
-	dh_installinit --no-start --name=setup-modem
