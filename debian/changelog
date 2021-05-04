@@ -1,3 +1,11 @@
+pinephone-modem-config (1.4-1) unstable; urgency=medium
+
+  * Sync pinephone_setup-modem with pmOS.
+  * Add GPl-3 license.
+  * Disable eg25-mangager dependency until it works with ofono.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 04 May 2021 20:07:25 +0200
+
 pinephone-modem-config (1.3-1) unstable; urgency=medium
 
   * Remove setup-modem initscript.
